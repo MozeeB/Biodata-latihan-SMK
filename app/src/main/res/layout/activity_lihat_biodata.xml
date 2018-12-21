@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="6dp"
+    android:layout_height="match_parent"
+    tools:context=".LihatBiodata">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Nomor                 :"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="001"
+        android:textSize="18dp"
+        android:id="@+id/lihat_nomor"
+        android:layout_marginStart="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Nama                   :"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mujiburrohman"
+        android:textSize="18dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/lihat_nama"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir    :"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lihat_tgl_lahir"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="200dp"
+        android:textSize="18dp"
+        android:text="05-11-2000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas                   :"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 RPL"
+        android:id="@+id/lihat_kelas"
+        android:layout_marginTop="150dp"
+        android:textSize="18dp"
+        android:layout_marginStart="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat                :"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelet Rt 02 Rw 01 Keling Jepara"
+        android:textSize="18dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="200dp"
+        android:id="@+id/lihat_alamat"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jurusan              :"
+        android:layout_marginTop="250dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RPL"
+        android:id="@+id/lihat_jurusan"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="200dp"
+        android:textSize="18dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Kembali"
+        android:id="@+id/lihat_kembali"/>
+
+
+</RelativeLayout>
